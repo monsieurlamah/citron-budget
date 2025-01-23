@@ -26,7 +26,7 @@ const Navbar = () => {
                 <Link href={"/budgets"} className="btn ">
                   Mes budgets
                 </Link>
-                <Link href={""} className="btn mx-4">
+                <Link href={"/dashboard"} className="btn mx-4">
                   Tableau de bord
                 </Link>
                 <Link href={"/transactions"} className="btn">
@@ -41,7 +41,7 @@ const Navbar = () => {
               <Link href={"/budgets"} className="btn  btn-sm">
                 Mes budgets
               </Link>
-              <Link href={""} className="btn mx-4 btn-sm">
+              <Link href={"/dashboard"} className="btn mx-4 btn-sm">
                 Tableau de bord
               </Link>
               <Link href={"/transactions"} className="btn btn-sm">
